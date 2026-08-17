@@ -1,10 +1,5 @@
 <svg width="900" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B0212"/>
-      <stop offset="45%" stop-color="#1C0B38"/>
-      <stop offset="100%" stop-color="#0B0212"/>
-    </linearGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#A855F7" stop-opacity="0.30"/>
       <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
@@ -14,9 +9,14 @@
       <stop offset="50%" stop-color="#C084FC" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="textPlate" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0B0212" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#0B0212" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0B0212" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- technical grid (drawn directly on a transparent canvas — no boxed background) -->
+  <!-- technical grid, transparent canvas -->
   <g stroke="#7C3AED" stroke-opacity="0.10">
     <path d="M0,25 H900 M0,50 H900 M0,75 H900 M0,100 H900 M0,125 H900" stroke-width="1"/>
     <path d="M50,0 V150 M150,0 V150 M250,0 V150 M350,0 V150 M450,0 V150 M550,0 V150 M650,0 V150 M750,0 V150 M850,0 V150" stroke-width="1"/>
@@ -32,41 +32,95 @@
     <animate attributeName="x" values="0;886;0" dur="9s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- floating diamond nodes (tech connection points) -->
+  <!-- floating diamond nodes, pushed toward the corners so they don't collide with the centered text -->
   <g fill="none" stroke="#C084FC" stroke-width="1.6">
-    <rect x="120" y="40" width="10" height="10" transform="rotate(45 125 45)">
+    <rect x="90" y="35" width="10" height="10" transform="rotate(45 95 40)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-8; 0,0" dur="4.5s" repeatCount="indefinite" additive="sum"/>
     </rect>
-    <rect x="260" y="95" width="10" height="10" transform="rotate(45 265 100)">
+    <rect x="160" y="105" width="10" height="10" transform="rotate(45 165 110)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,10; 0,0" dur="5.2s" repeatCount="indefinite" additive="sum"/>
     </rect>
-    <rect x="620" y="35" width="10" height="10" transform="rotate(45 625 40)">
+    <rect x="740" y="30" width="10" height="10" transform="rotate(45 745 35)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="6s" repeatCount="indefinite" additive="sum"/>
     </rect>
-    <rect x="760" y="90" width="10" height="10" transform="rotate(45 765 95)">
+    <rect x="800" y="100" width="10" height="10" transform="rotate(45 805 105)">
       <animateTransform attributeName="transform" type="translate" values="0,0; 0,9; 0,0" dur="4.8s" repeatCount="indefinite" additive="sum"/>
     </rect>
   </g>
 
   <!-- soft floating particles -->
   <g fill="#C084FC">
-    <circle cx="90" cy="70" r="2.2" opacity="0.8">
+    <circle cx="60" cy="70" r="2.2" opacity="0.8">
       <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="220" cy="30" r="1.8" opacity="0.7">
+    <circle cx="150" cy="25" r="1.8" opacity="0.7">
       <animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="380" cy="115" r="2" opacity="0.75">
+    <circle cx="130" cy="130" r="2" opacity="0.75">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="530" cy="25" r="2.4" opacity="0.8">
+    <circle cx="770" cy="20" r="2.4" opacity="0.8">
       <animate attributeName="opacity" values="0.9;0.25;0.9" dur="3.9s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="700" cy="120" r="1.9" opacity="0.7">
+    <circle cx="850" cy="120" r="1.9" opacity="0.7">
       <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.6s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="840" cy="55" r="2.1" opacity="0.75">
+    <circle cx="790" cy="70" r="2.1" opacity="0.75">
       <animate attributeName="opacity" values="0.85;0.25;0.85" dur="5.4s" repeatCount="indefinite"/>
     </circle>
   </g>
+
+  <!-- soft plate behind the text for legibility, blended not boxed -->
+  <ellipse cx="450" cy="80" rx="260" ry="45" fill="url(#textPlate)"/>
+
+  <!-- cycling identity line, merged directly into the background (SMIL crossfade + blinking cursor) -->
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0.0000;0.0190;0.1143;0.1333;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      Full Stack Developer<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.1429;0.1619;0.2571;0.2762;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      MERN Stack Developer<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.2857;0.3048;0.4000;0.4190;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      React.js Developer<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.4286;0.4476;0.5429;0.5619;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      Backend Developer<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.5714;0.5905;0.6857;0.7048;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      JavaScript Developer<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.7143;0.7333;0.8286;0.8476;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      Python Learner<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
+    <text x="450" y="82" text-anchor="middle" font-family="'Courier New', monospace" font-size="21" font-weight="600" fill="#E9D5FF" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.8571;0.8762;0.9714;0.9905;1.0000" dur="21.0s" begin="0s" repeatCount="indefinite"/>
+      Database Explorer<tspan>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
+        |
+      </tspan>
+    </text>
 </svg>
