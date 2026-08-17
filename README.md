@@ -29,6 +29,48 @@
 
 <br/>
 
+<!-- =========================================================
+  SECTION 02 — DEVELOPER COMMAND CENTER (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Paste this block directly below the hero section in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner — same purple gradient language as the hero -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=DEVELOPER%20COMMAND%20CENTER&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+
+<!-- Custom 2D animated command-center panel: metadata, animated data-flow chain, sequential "currently learning" reveal -->
+<!-- Commit assets/command-center.svg to your repo, then this <img> renders it directly from GitHub raw content -->
+<img width="100%" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/command-center.svg" alt="Ravishankar Gautam system status: Full Stack Developer, open to opportunities, based in Mumbai India; primary stack JavaScript, React, Node, Express, MongoDB; currently learning Python, MySQL, PostgreSQL, Next.js" />
+
+</div>
+
+<br/>
+
+<!-- Static terminal snippet — deliberately NOT animated, for authenticity and to avoid over-animating the page -->
+<div align="center">
+
+```bash
+$ whoami
+Ravishankar Gautam
+
+$ role
+Full Stack Developer
+
+$ focus
+MERN + SQL + Python
+
+$ status
+OPEN_TO_OPPORTUNITIES=true
+```
+
+</div>
+
+<div align="center">
+<img width="60%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
+</div>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
 
 </div>
