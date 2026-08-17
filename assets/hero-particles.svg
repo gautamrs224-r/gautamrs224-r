@@ -16,10 +16,8 @@
     </linearGradient>
   </defs>
 
-  <rect width="900" height="150" fill="url(#bg)"/>
-
-  <!-- technical grid -->
-  <g stroke="#7C3AED" stroke-opacity="0.14">
+  <!-- technical grid (drawn directly on a transparent canvas — no boxed background) -->
+  <g stroke="#7C3AED" stroke-opacity="0.10">
     <path d="M0,25 H900 M0,50 H900 M0,75 H900 M0,100 H900 M0,125 H900" stroke-width="1"/>
     <path d="M50,0 V150 M150,0 V150 M250,0 V150 M350,0 V150 M450,0 V150 M550,0 V150 M650,0 V150 M750,0 V150 M850,0 V150" stroke-width="1"/>
   </g>
