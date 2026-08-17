@@ -74,3 +74,27 @@ OPEN_TO_OPPORTUNITIES=true
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
 
 </div>
+
+<!-- =========================================================
+  SECTION 03 — TECH ARSENAL (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Concept: Technology Constellation + Dependency Graph hybrid.
+  NOT a category grid — nodes are connected by real technology
+  relationships (React→Redux, Express→MongoDB, etc.), and every
+  icon animates individually (float, pulse, and — for the
+  Currently Learning tier — a slow spinning ring).
+  Paste this block directly below the command center in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=TECH%20ARSENAL&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+
+<!-- Custom animated constellation: a pulsing core radiates to the Primary Stack, -->
+<!-- while a second, dashed layer of lines connects technologies that are actually -->
+<!-- related to each other (not just grouped by category). -->
+<!-- Commit assets/tech-arsenal.svg to your repo, then this <img> renders it from GitHub raw content -->
+<img width="100%" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/tech-arsenal.svg" alt="Technology constellation: Primary stack JavaScript, Python, React, Node.js, Express, MongoDB, Git, GitHub; Active development HTML5, CSS3, MySQL, PostgreSQL; Currently learning TypeScript, Next.js, Redux, Docker — connected by real technology relationships such as React to Redux and Express to MongoDB" />
+
+</div>
