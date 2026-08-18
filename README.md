@@ -28,6 +28,7 @@
 <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20FULL%20STACK%20OPPORTUNITIES-0B0212?style=for-the-badge&labelColor=1C0B38&color=C084FC" alt="Availability status"/>
 
 <br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
 
 <!-- =========================================================
   SECTION 02 — DEVELOPER COMMAND CENTER (Dark Premium Purple, 2D animated)
