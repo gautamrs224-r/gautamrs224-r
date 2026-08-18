@@ -96,3 +96,30 @@ OPEN_TO_OPPORTUNITIES=true
 <img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/tech-arsenal.svg" alt="Technology constellation: Primary stack JavaScript, Python, React, Node.js, Express, MongoDB, Git, GitHub; Active development HTML5, CSS3, MySQL, PostgreSQL; Currently learning TypeScript, Next.js, Redux, Docker — connected by real technology relationships such as React to Redux and Express to MongoDB" />
 
 </div>
+
+<!-- =========================================================
+  SECTION 05 — CONTRIBUTION ACTIVITY (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  This is a REAL, auto-generated visualization of actual GitHub
+  contribution data — not decorative fake data. It is produced by
+  .github/workflows/snake.yml (Platane/snk), themed to match the
+  same purple palette as every other section.
+  Paste this block directly below Tech Arsenal in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner -->
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=CONTRIBUTION%20ACTIVITY&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+
+<!-- The snake itself: a small particle-like avatar travels through your real contribution cells, -->
+<!-- lighting each one it passes. Colors run from near-black (no contributions) to bright lavender -->
+<!-- (highest contribution day) — same gradient family as the hero and command center. -->
+<!-- This file does not exist until the workflow below runs at least once. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/dist/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/dist/snake-light.svg" />
+  <img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/dist/snake-dark.svg" alt="Ravishankar Gautam's GitHub contribution activity, animated" />
+</picture>
+
+</div>
