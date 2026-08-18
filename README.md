@@ -143,16 +143,16 @@ OPEN_TO_OPPORTUNITIES=true
 <br/><br/>
 
 <!-- Stats card + Streak stats, side by side -->
-<img height="200" src="https://github-readme-stats.vercel.app/api?username=gautamrs224-r&show_icons=true&hide_border=true&bg_color=0B0212&title_color=C084FC&icon_color=A855F7&text_color=EDE4FF&ring_color=7C3AED" alt="Ravishankar Gautam's GitHub stats" />
+<!-- github-stats.svg is generated daily by .github/workflows/stats.yml — no dependency on the public service at render time -->
+<img height="200" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/github-stats.svg" alt="Ravishankar Gautam's GitHub stats" />
 <img height="200" src="https://streak-stats.demolab.com/?user=gautamrs224-r&hide_border=true&background=0B0212&ring=C084FC&fire=C084FC&currStreakLabel=EDE4FF&sideNums=EDE4FF&currStreakNum=EDE4FF&sideLabels=A855F7&dates=7C3AED" alt="Ravishankar Gautam's GitHub streak" />
 
 <br/><br/>
 
 <!-- Top languages -->
-<img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gautamrs224-r&layout=compact&hide_border=true&bg_color=0B0212&title_color=C084FC&text_color=EDE4FF" alt="Ravishankar Gautam's most used languages" />
+<img height="200" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/top-langs.svg" alt="Ravishankar Gautam's most used languages" />
 
 </div>
-
 <!-- =========================================================
   SECTION 07 — LEARNING JOURNEY (Dark Premium Purple, 2D animated)
   Ravishankar Gautam · Full Stack / MERN Developer
