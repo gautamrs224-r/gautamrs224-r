@@ -143,12 +143,34 @@ OPEN_TO_OPPORTUNITIES=true
 <br/><br/>
 
 <!-- Stats card + Streak stats, side by side -->
-<img height="200" src="https://github-readme-stats.vercel.app/api?username=gautamrs224-r&show_icons=true&hide_border=true&count_private=true&bg_color=0B0212&title_color=C084FC&icon_color=A855F7&text_color=EDE4FF&ring_color=7C3AED" alt="Ravishankar Gautam's GitHub stats" />
+<img height="200" src="https://github-readme-stats.vercel.app/api?username=gautamrs224-r&show_icons=true&hide_border=true&bg_color=0B0212&title_color=C084FC&icon_color=A855F7&text_color=EDE4FF&ring_color=7C3AED" alt="Ravishankar Gautam's GitHub stats" />
 <img height="200" src="https://streak-stats.demolab.com/?user=gautamrs224-r&hide_border=true&background=0B0212&ring=C084FC&fire=C084FC&currStreakLabel=EDE4FF&sideNums=EDE4FF&currStreakNum=EDE4FF&sideLabels=A855F7&dates=7C3AED" alt="Ravishankar Gautam's GitHub streak" />
 
 <br/><br/>
 
 <!-- Top languages -->
 <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gautamrs224-r&layout=compact&hide_border=true&bg_color=0B0212&title_color=C084FC&text_color=EDE4FF" alt="Ravishankar Gautam's most used languages" />
+
+</div>
+
+<!-- =========================================================
+  SECTION 07 — LEARNING JOURNEY (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Concept: a winding path across your real learning timeline, with a
+  comet (with a genuine fading tail, not a reused glow trick) traveling
+  the entire route on loop, and each milestone briefly flashing brighter
+  as the comet passes it — distinct animation language from the
+  constellation (Tech Arsenal) and the dashboard (Command Center).
+  Paste this block directly below GitHub Analytics in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner -->
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=LEARNING%20JOURNEY&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+
+<!-- Custom animated winding-path timeline -->
+<!-- Commit assets/learning-journey.svg to your repo, served via jsDelivr (avoids the raw.githubusercontent.com click-to-source behavior) -->
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/learning-journey.svg" alt="Ravishankar Gautam's learning journey: completed HTML and CSS, JavaScript, React.js, Node.js and Express, MongoDB and SQL, Git and GitHub; currently in progress TypeScript and Next.js; future goal System Design" />
 
 </div>
