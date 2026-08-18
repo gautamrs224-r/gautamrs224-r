@@ -1,0 +1,110 @@
+<svg width="830" height="406" viewBox="0 0 940 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ambient" cx="50%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g stroke="#7C3AED" stroke-opacity="0.06">
+    <path d="M0,100 H940 M0,220 H940 M0,340 H940" stroke-width="1"/>
+    <path d="M170,0 V460 M370,0 V460 M570,0 V460 M770,0 V460" stroke-width="1"/>
+  </g>
+  <circle cx="470" cy="150" r="240" fill="url(#ambient)"/>
+
+  <!-- the journey path itself -->
+  <path d="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9" fill="none" stroke="#7C3AED" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9" fill="none" stroke="#C084FC" stroke-opacity="0.12" stroke-width="8"/>
+
+  <!-- comet with fading trail traveling the entire journey, looping -->
+  <circle r="5.5" fill="#F5EEFF" opacity="1.0">
+    <animateMotion dur="14.0s" begin="0s" repeatCount="indefinite" path="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9"/>
+  </circle>
+  <circle r="4.4" fill="#E9D5FF" opacity="0.7">
+    <animateMotion dur="14.0s" begin="-0.25s" repeatCount="indefinite" path="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9"/>
+  </circle>
+  <circle r="3.4" fill="#C084FC" opacity="0.5">
+    <animateMotion dur="14.0s" begin="-0.5s" repeatCount="indefinite" path="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9"/>
+  </circle>
+  <circle r="2.4" fill="#A855F7" opacity="0.32">
+    <animateMotion dur="14.0s" begin="-0.8s" repeatCount="indefinite" path="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9"/>
+  </circle>
+  <circle r="1.6" fill="#7C3AED" opacity="0.18">
+    <animateMotion dur="14.0s" begin="-1.2s" repeatCount="indefinite" path="M70.0,220.0 C86.7,231.9 136.7,275.7 170.0,291.4 C203.3,307.1 236.7,317.3 270.0,314.2 C303.3,311.1 336.7,292.7 370.0,273.0 C403.3,253.2 436.7,218.7 470.0,195.7 C503.3,172.7 536.7,145.6 570.0,135.0 C603.3,124.4 636.7,123.1 670.0,132.0 C703.3,141.0 736.7,166.4 770.0,188.9 C803.3,211.4 853.3,253.9 870.0,266.9"/>
+  </circle>
+
+  <!-- milestones -->
+  <g transform="translate(70,220.0)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.0350;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
+    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">HTML & CSS</text>
+  </g>
+  <g transform="translate(170,291.3716384883278)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.0900;0.1250;0.1600;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
+    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">JavaScript</text>
+  </g>
+  <g transform="translate(270,314.2081569929845)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.2150;0.2500;0.2850;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
+    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">React.js</text>
+  </g>
+  <g transform="translate(370,272.97995315218463)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3400;0.3750;0.4100;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
+    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Node.js & Express</text>
+  </g>
+  <g transform="translate(470,195.72359530745103)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.4650;0.5000;0.5350;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
+    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">MongoDB / SQL</text>
+  </g>
+  <g transform="translate(570,134.97601096828458)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.5900;0.6250;0.6600;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
+    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Git & GitHub</text>
+  </g>
+  <g transform="translate(670,132.0476051788654)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.7150;0.7500;0.7850;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#1C0B38" stroke="#A855F7" stroke-width="1.8" stroke-dasharray="none"/>
+    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">TypeScript</text>
+  </g>
+  <g transform="translate(770,188.92979258737464)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.8400;0.8750;0.9100;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="#1C0B38" stroke="#A855F7" stroke-width="1.8" stroke-dasharray="none"/>
+    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">Next.js</text>
+  </g>
+  <g transform="translate(870,266.94076835816776)">
+    <circle r="22" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0.0000;0.9650;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="14" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-dasharray="4,4"/>
+    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#9F8FCB">System Design</text>
+  </g>
+
+  <!-- legend -->
+  <g font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">
+    <circle cx="300" cy="428" r="7" fill="#4C1D95" stroke="#C084FC" stroke-width="2"/>
+    <text x="315" y="432">Completed</text>
+    <circle cx="470" cy="428" r="7" fill="#1C0B38" stroke="#A855F7" stroke-width="1.8"/>
+    <text x="485" y="432">In Progress</text>
+    <circle cx="650" cy="428" r="7" fill="none" stroke="#7C3AED" stroke-width="1.4" stroke-dasharray="3,3"/>
+    <text x="665" y="432">Future Goal</text>
+  </g>
+</svg>
