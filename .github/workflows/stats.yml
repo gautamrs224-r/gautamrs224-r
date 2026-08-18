@@ -1,0 +1,45 @@
+name: update github stats cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # once daily
+  workflow_dispatch: {}    # manual "Run workflow" trigger
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: fetch stats card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=gautamrs224-r&show_icons=true&hide_border=true&bg_color=0B0212&title_color=C084FC&icon_color=A855F7&text_color=EDE4FF&ring_color=7C3AED" -o /tmp/github-stats.svg
+          if grep -q "<svg" /tmp/github-stats.svg; then
+            mkdir -p assets
+            mv /tmp/github-stats.svg assets/github-stats.svg
+          else
+            echo "fetch failed or returned an error page — keeping the previous good copy"
+          fi
+
+      - name: fetch top languages card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=gautamrs224-r&layout=compact&hide_border=true&bg_color=0B0212&title_color=C084FC&text_color=EDE4FF" -o /tmp/top-langs.svg
+          if grep -q "<svg" /tmp/top-langs.svg; then
+            mkdir -p assets
+            mv /tmp/top-langs.svg assets/top-langs.svg
+          else
+            echo "fetch failed or returned an error page — keeping the previous good copy"
+          fi
+
+      - name: commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-langs.svg
+          git diff --quiet && git diff --staged --quiet || (git commit -m "update github stats cards" && git push)
