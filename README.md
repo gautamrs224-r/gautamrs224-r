@@ -7,11 +7,11 @@
 <div align="center">
 
 <!-- Animated gradient banner — deep purple, name + role baked into image -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=220&section=header&text=RAVISHANKAR%20GAUTAM&fontSize=44&fontColor=EDE4FF&fontAlignY=38&animation=fadeIn&desc=FULL%20STACK%20DEVELOPER%20%E2%80%A2%20MERN%20STACK&descAlignY=58&descSize=17&descColor=C084FC" />
+<img width="830" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=220&section=header&text=RAVISHANKAR%20GAUTAM&fontSize=44&fontColor=EDE4FF&fontAlignY=38&animation=fadeIn&desc=FULL%20STACK%20DEVELOPER%20%E2%80%A2%20MERN%20STACK&descAlignY=58&descSize=17&descColor=C084FC" />
 
 <!-- Custom 2D animated background, merged with the cycling identity line in one SVG (SMIL motion + crossfade text) -->
 <!-- Commit assets/hero-particles.svg to your repo, then this <img> renders it directly from GitHub raw content -->
-<img width="100%" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/hero-particles.svg" alt="Ravishankar Gautam — animated identity line: Full Stack Developer, MERN Stack Developer, React.js Developer, Backend Developer, JavaScript Developer, Python Learner, Database Explorer" />
+<img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/hero-particles.svg" alt="Ravishankar Gautam — animated identity line: Full Stack Developer, MERN Stack Developer, React.js Developer, Backend Developer, JavaScript Developer, Python Learner, Database Explorer" />
 
 <br/>
 
@@ -28,8 +28,10 @@
 <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20FULL%20STACK%20OPPORTUNITIES-0B0212?style=for-the-badge&labelColor=1C0B38&color=C084FC" alt="Availability status"/>
 
 <br/>
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
 
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
+
+</div>
 <!-- =========================================================
   SECTION 02 — DEVELOPER COMMAND CENTER (Dark Premium Purple, 2D animated)
   Ravishankar Gautam · Full Stack / MERN Developer
@@ -39,11 +41,11 @@
 <div align="center">
 
 <!-- Section banner — same purple gradient language as the hero -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=DEVELOPER%20COMMAND%20CENTER&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=DEVELOPER%20COMMAND%20CENTER&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
 
 <!-- Custom 2D animated command-center panel: metadata, animated data-flow chain, sequential "currently learning" reveal -->
 <!-- Commit assets/command-center.svg to your repo, then this <img> renders it directly from GitHub raw content -->
-<img width="100%" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/command-center.svg" alt="Ravishankar Gautam system status: Full Stack Developer, open to opportunities, based in Mumbai India; primary stack JavaScript, React, Node, Express, MongoDB; currently learning Python, MySQL, PostgreSQL, Next.js" />
+<img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/command-center.svg" alt="Ravishankar Gautam system status: Full Stack Developer, open to opportunities, based in Mumbai India; primary stack JavaScript, React, Node, Express, MongoDB; currently learning Python, MySQL, PostgreSQL, Next.js" />
 
 </div>
 
@@ -71,11 +73,6 @@ OPEN_TO_OPPORTUNITIES=true
 <div align="center">
 <img width="60%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,50:4C1D95,100:0B0212&height=3&section=footer" />
-
-</div>
-
 <!-- =========================================================
   SECTION 03 — TECH ARSENAL (Dark Premium Purple, 2D animated)
   Ravishankar Gautam · Full Stack / MERN Developer
@@ -90,12 +87,12 @@ OPEN_TO_OPPORTUNITIES=true
 <div align="center">
 
 <!-- Section banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=TECH%20ARSENAL&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=TECH%20ARSENAL&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
 
 <!-- Custom animated constellation: a pulsing core radiates to the Primary Stack, -->
 <!-- while a second, dashed layer of lines connects technologies that are actually -->
 <!-- related to each other (not just grouped by category). -->
 <!-- Commit assets/tech-arsenal.svg to your repo, then this <img> renders it from GitHub raw content -->
-<img width="100%" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/tech-arsenal.svg" alt="Technology constellation: Primary stack JavaScript, Python, React, Node.js, Express, MongoDB, Git, GitHub; Active development HTML5, CSS3, MySQL, PostgreSQL; Currently learning TypeScript, Next.js, Redux, Docker — connected by real technology relationships such as React to Redux and Express to MongoDB" />
+<img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/tech-arsenal.svg" alt="Technology constellation: Primary stack JavaScript, Python, React, Node.js, Express, MongoDB, Git, GitHub; Active development HTML5, CSS3, MySQL, PostgreSQL; Currently learning TypeScript, Next.js, Redux, Docker — connected by real technology relationships such as React to Redux and Express to MongoDB" />
 
 </div>
