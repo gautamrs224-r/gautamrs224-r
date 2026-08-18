@@ -11,7 +11,7 @@
 
 <!-- Custom 2D animated background, merged with the cycling identity line in one SVG (SMIL motion + crossfade text) -->
 <!-- Commit assets/hero-particles.svg to your repo, then this <img> renders it directly from GitHub raw content -->
-<img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/hero-particles.svg" alt="Ravishankar Gautam — animated identity line: Full Stack Developer, MERN Stack Developer, React.js Developer, Backend Developer, JavaScript Developer, Python Learner, Database Explorer" />
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/hero-particles.svg" alt="Ravishankar Gautam — animated identity line: Full Stack Developer, MERN Stack Developer, React.js Developer, Backend Developer, JavaScript Developer, Python Learner, Database Explorer" />
 
 <br/>
 
@@ -45,7 +45,7 @@
 
 <!-- Custom 2D animated command-center panel: metadata, animated data-flow chain, sequential "currently learning" reveal -->
 <!-- Commit assets/command-center.svg to your repo, then this <img> renders it directly from GitHub raw content -->
-<img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/command-center.svg" alt="Ravishankar Gautam system status: Full Stack Developer, open to opportunities, based in Mumbai India; primary stack JavaScript, React, Node, Express, MongoDB; currently learning Python, MySQL, PostgreSQL, Next.js" />
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/command-center.svg" alt="Ravishankar Gautam system status: Full Stack Developer, open to opportunities, based in Mumbai India; primary stack JavaScript, React, Node, Express, MongoDB; currently learning Python, MySQL, PostgreSQL, Next.js" />
 
 </div>
 
@@ -93,7 +93,7 @@ OPEN_TO_OPPORTUNITIES=true
 <!-- while a second, dashed layer of lines connects technologies that are actually -->
 <!-- related to each other (not just grouped by category). -->
 <!-- Commit assets/tech-arsenal.svg to your repo, then this <img> renders it from GitHub raw content -->
-<img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/main/assets/tech-arsenal.svg" alt="Technology constellation: Primary stack JavaScript, Python, React, Node.js, Express, MongoDB, Git, GitHub; Active development HTML5, CSS3, MySQL, PostgreSQL; Currently learning TypeScript, Next.js, Redux, Docker — connected by real technology relationships such as React to Redux and Express to MongoDB" />
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/tech-arsenal.svg" alt="Technology constellation: Primary stack JavaScript, Python, React, Node.js, Express, MongoDB, Git, GitHub; Active development HTML5, CSS3, MySQL, PostgreSQL; Currently learning TypeScript, Next.js, Redux, Docker — connected by real technology relationships such as React to Redux and Express to MongoDB" />
 
 </div>
 
@@ -117,9 +117,38 @@ OPEN_TO_OPPORTUNITIES=true
 <!-- (highest contribution day) — same gradient family as the hero and command center. -->
 <!-- This file does not exist until the workflow below runs at least once. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/snake-light.svg" />
-  <img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/snake-dark.svg" alt="Ravishankar Gautam's GitHub contribution activity, animated" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@output/snake-light.svg" />
+  <img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@output/snake-dark.svg" alt="Ravishankar Gautam's GitHub contribution activity, animated" />
 </picture>
+
+</div>
+
+<!-- =========================================================
+  SECTION 06 — GITHUB ANALYTICS (Dark Premium Purple, live + animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Built entirely on external, live-generating services (github-readme-stats)
+  themed to the same hex palette as every other section. Because these are
+  NOT files in your repo, they are naturally immune to the "click opens raw
+  file in a new tab" behavior — same reason your capsule-render banners
+  never had that problem.
+  Paste this block directly below the contribution snake in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner -->
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=GITHUB%20ANALYTICS&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+
+<br/><br/>
+
+<!-- Stats card + Streak stats, side by side -->
+<img height="200" src="https://github-readme-stats.vercel.app/api?username=gautamrs224-r&show_icons=true&hide_border=true&count_private=true&bg_color=0B0212&title_color=C084FC&icon_color=A855F7&text_color=EDE4FF&ring_color=7C3AED" alt="Ravishankar Gautam's GitHub stats" />
+<img height="200" src="https://streak-stats.demolab.com/?user=gautamrs224-r&hide_border=true&background=0B0212&ring=C084FC&fire=C084FC&currStreakLabel=EDE4FF&sideNums=EDE4FF&currStreakNum=EDE4FF&sideLabels=A855F7&dates=7C3AED" alt="Ravishankar Gautam's GitHub streak" />
+
+<br/><br/>
+
+<!-- Top languages -->
+<img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gautamrs224-r&layout=compact&hide_border=true&bg_color=0B0212&title_color=C084FC&text_color=EDE4FF" alt="Ravishankar Gautam's most used languages" />
 
 </div>
