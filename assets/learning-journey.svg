@@ -39,7 +39,7 @@
       <animate attributeName="opacity" values="1;0;0" keyTimes="0.0000;0.0350;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
     </circle>
     <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
-    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">HTML & CSS</text>
+    <text y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">HTML &amp; CSS</text>
   </g>
   <g transform="translate(170,291.3716384883278)">
     <circle r="22" fill="#A855F7" opacity="0">
@@ -60,7 +60,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3400;0.3750;0.4100;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
     </circle>
     <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
-    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Node.js & Express</text>
+    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Node.js &amp; Express</text>
   </g>
   <g transform="translate(470,195.72359530745103)">
     <circle r="22" fill="#A855F7" opacity="0">
@@ -74,7 +74,7 @@
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.5900;0.6250;0.6600;1.0000" dur="14.0s" begin="0s" repeatCount="indefinite"/>
     </circle>
     <circle r="14" fill="#4C1D95" stroke="#C084FC" stroke-width="2.2" stroke-dasharray="none"/>
-    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Git & GitHub</text>
+    <text y="-22" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Git &amp; GitHub</text>
   </g>
   <g transform="translate(670,132.0476051788654)">
     <circle r="22" fill="#A855F7" opacity="0">
