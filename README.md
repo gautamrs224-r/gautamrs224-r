@@ -117,9 +117,9 @@ OPEN_TO_OPPORTUNITIES=true
 <!-- (highest contribution day) — same gradient family as the hero and command center. -->
 <!-- This file does not exist until the workflow below runs at least once. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/dist/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/dist/snake-light.svg" />
-  <img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/dist/snake-dark.svg" alt="Ravishankar Gautam's GitHub contribution activity, animated" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/snake-light.svg" />
+  <img width="830" src="https://raw.githubusercontent.com/gautamrs224-r/gautamrs224-r/output/snake-dark.svg" alt="Ravishankar Gautam's GitHub contribution activity, animated" />
 </picture>
 
 </div>
