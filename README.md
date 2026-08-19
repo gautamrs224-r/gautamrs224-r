@@ -174,3 +174,70 @@ OPEN_TO_OPPORTUNITIES=true
 <img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/learning-journey.svg" alt="Ravishankar Gautam's learning journey: completed HTML and CSS, JavaScript, React.js, Node.js and Express, MongoDB and SQL, Git and GitHub; currently in progress TypeScript and Next.js; future goal System Design" />
 
 </div>
+
+<!-- =========================================================
+  SECTION 08 — CONTACT / CAREER (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Concept: a transmitting signal beacon — expanding radar-ping rings,
+  orbiting signal particles, and a cycling status line — distinct
+  animation language from every prior section (no reused constellation,
+  dashboard, or comet-trail technique).
+
+  BEFORE USING: replace the three placeholder links below
+  (mailto, LinkedIn, portfolio) with your real ones.
+  Paste this block directly below Learning Journey in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner -->
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=CONTACT%20%2F%20CAREER&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+
+<!-- Custom animated beacon: radar-ping rings transmitting outward, orbiting particles, cycling status -->
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/contact-beacon.svg" alt="Ravishankar Gautam — open to opportunities, let's build something, reach out anytime" />
+
+<br/><br/>
+
+<!-- Functional contact badges — REPLACE the placeholder URLs before publishing -->
+<a href="mailto:your.email@example.com">
+  <img src="https://img.shields.io/badge/EMAIL-0B0212?style=for-the-badge&logo=gmail&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="Email" />
+</a>&nbsp;
+<a href="https://www.linkedin.com/in/your-linkedin-handle">
+  <img src="https://img.shields.io/badge/LINKEDIN-0B0212?style=for-the-badge&logo=linkedin&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="LinkedIn" />
+</a>&nbsp;
+<a href="https://github.com/gautamrs224-r">
+  <img src="https://img.shields.io/badge/GITHUB-0B0212?style=for-the-badge&logo=github&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="GitHub" />
+</a>&nbsp;
+<a href="https://your-portfolio-url.example.com">
+  <img src="https://img.shields.io/badge/PORTFOLIO-0B0212?style=for-the-badge&logo=vercel&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="Portfolio" />
+</a>
+
+</div>
+
+<!-- =========================================================
+  SECTION 09 — CINEMATIC FOOTER (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Concept: a "portal" of three concentric rings rotating at different
+  speeds and in alternating directions — a genuinely different animation
+  language from every other section, and reads with real depth despite
+  being 2D. Closes with a wave that mirrors the hero's opening wave for
+  a deliberate visual bookend across the whole README.
+  Paste this block as the very last thing in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Custom animated closing portal + typed sign-off -->
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/cinematic-footer.svg" alt="Thanks for stopping by — Ravishankar Gautam" />
+
+<br/>
+
+<!-- Live visitor counter — real data, not decorative -->
+<img src="https://komarev.com/ghpvc/?username=gautamrs224-r&label=PROFILE%20VIEWS&color=7C3AED&style=for-the-badge" alt="Profile views" />
+
+<br/><br/>
+
+<!-- Closing wave — mirrors the hero's opening wave, same gradient stops, for a deliberate bookend -->
+<img width="830" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=150&section=footer" />
+
+</div>
