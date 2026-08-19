@@ -1,0 +1,36 @@
+<svg width="830" height="260" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="portalGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#7C3AED" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g stroke="#7C3AED" stroke-opacity="0.05">
+    <path d="M0,60 H900 M0,180 H900" stroke-width="1"/>
+    <path d="M225,0 V280 M450,0 V280 M675,0 V280" stroke-width="1"/>
+  </g>
+
+  <circle cx="450" cy="110" r="150" fill="url(#portalGlow)">
+    <animate attributeName="r" values="140;165;140" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- rotating concentric rings at different speeds/directions — reads as depth without true 3D -->
+  <circle cx="450" cy="110" r="90" fill="none" stroke="#E9D5FF" stroke-width="1.8" stroke-dasharray="none" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" values="0 450 110;360 450 110" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="110" r="65" fill="none" stroke="#C084FC" stroke-width="1.6" stroke-dasharray="6,6" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" values="360 450 110;0 450 110" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="110" r="42" fill="none" stroke="#A855F7" stroke-width="1.4" stroke-dasharray="3,3" opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate" values="0 450 110;360 450 110" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- core -->
+  <circle cx="450" cy="110" r="22" fill="#0B0212" stroke="#E9D5FF" stroke-width="1.6"/>
+  <text x="450" y="115" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#E9D5FF" letter-spacing="1">RG</text>
+
+  <!-- closing line -->
+  <text x="450" y="230" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#C4B5FD">Thanks for stopping by<tspan fill="#C084FC"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/> _</tspan></text>
+</svg>
