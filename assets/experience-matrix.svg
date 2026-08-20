@@ -1,0 +1,192 @@
+<svg width="830" height="360" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C084FC" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="50%" cy="10%" r="70%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g stroke="#7C3AED" stroke-opacity="0.06">
+    <path d="M0,95 H900 M0,180 H900 M0,265 H900" stroke-width="1"/>
+    <path d="M225,0 V380 M450,0 V380 M675,0 V380" stroke-width="1"/>
+  </g>
+  <circle cx="450" cy="60" r="220" fill="url(#ambient)"/>
+
+  <text x="30" y="30" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#E9D5FF" letter-spacing="1">ENGINEERING EXPERIENCE MATRIX</text>
+  <line x1="30" y1="42" x2="870" y2="42" stroke="#7C3AED" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- diagnostic scan line, sweeps top to bottom continuously, brightening each row as it passes -->
+  <rect x="0" y="0" width="900" height="16" fill="url(#scanGrad)">
+    <animate attributeName="y" values="50;350;50" dur="10.0s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="30" y="75" font-family="'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#EDE4FF" opacity="0.95">PRIMARY STACK</text>
+  <g transform="translate(260,52)">
+    <rect width="104" height="30" rx="6" fill="#2D0B57" stroke="#C084FC" stroke-width="1.8" stroke-dasharray="none" opacity="0.95"/>
+    <rect width="104" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.1414;0.1714;0.2214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="52.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">JavaScript</text>
+  </g>
+  <g transform="translate(376,52)">
+    <rect width="88" height="30" rx="6" fill="#2D0B57" stroke="#C084FC" stroke-width="1.8" stroke-dasharray="none" opacity="0.95"/>
+    <rect width="88" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.1414;0.1714;0.2214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="44.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">React.js</text>
+  </g>
+  <g transform="translate(476,52)">
+    <rect width="80" height="30" rx="6" fill="#2D0B57" stroke="#C084FC" stroke-width="1.8" stroke-dasharray="none" opacity="0.95"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.1414;0.1714;0.2214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Node.js</text>
+  </g>
+  <g transform="translate(568,52)">
+    <rect width="104" height="30" rx="6" fill="#2D0B57" stroke="#C084FC" stroke-width="1.8" stroke-dasharray="none" opacity="0.95"/>
+    <rect width="104" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.1414;0.1714;0.2214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="52.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Express.js</text>
+  </g>
+  <g transform="translate(684,52)">
+    <rect width="80" height="30" rx="6" fill="#2D0B57" stroke="#C084FC" stroke-width="1.8" stroke-dasharray="none" opacity="0.95"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.1414;0.1714;0.2214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">MongoDB</text>
+  </g>
+  <g transform="translate(776,52)">
+    <rect width="120" height="30" rx="6" fill="#2D0B57" stroke="#C084FC" stroke-width="1.8" stroke-dasharray="none" opacity="0.95"/>
+    <rect width="120" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.1414;0.1714;0.2214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#EDE4FF">Tailwind CSS</text>
+  </g>
+
+  <text x="30" y="160" font-family="'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#E9D5FF" opacity="0.9">ACTIVE DEVELOPMENT</text>
+  <g transform="translate(260,137)">
+    <rect width="96" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="none" opacity="0.9"/>
+    <rect width="96" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3843;0.4143;0.4643;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="48.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E9D5FF">REST APIs</text>
+  </g>
+  <g transform="translate(368,137)">
+    <rect width="136" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="none" opacity="0.9"/>
+    <rect width="136" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3843;0.4143;0.4643;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="68.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E9D5FF">Authentication</text>
+  </g>
+  <g transform="translate(516,137)">
+    <rect width="120" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="none" opacity="0.9"/>
+    <rect width="120" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3843;0.4143;0.4643;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E9D5FF">API Security</text>
+  </g>
+  <g transform="translate(648,137)">
+    <rect width="136" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="none" opacity="0.9"/>
+    <rect width="136" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3843;0.4143;0.4643;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="68.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E9D5FF">Advanced React</text>
+  </g>
+  <g transform="translate(796,137)">
+    <rect width="120" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="none" opacity="0.9"/>
+    <rect width="120" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3843;0.4143;0.4643;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E9D5FF">Git / GitHub</text>
+  </g>
+  <g transform="translate(928,137)">
+    <rect width="152" height="30" rx="6" fill="none" stroke="#A855F7" stroke-width="1.5" stroke-dasharray="none" opacity="0.9"/>
+    <rect width="152" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.3843;0.4143;0.4643;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="76.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#E9D5FF">Cloud Deployment</text>
+  </g>
+
+  <text x="30" y="245" font-family="'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#C4B5FD" opacity="0.8">CURRENTLY LEARNING</text>
+  <g transform="translate(260,222)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-dasharray="4,3" opacity="0.8"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.6271;0.6571;0.7071;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">Python</text>
+  </g>
+  <g transform="translate(352,222)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-dasharray="4,3" opacity="0.8"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.6271;0.6571;0.7071;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">MySQL</text>
+  </g>
+  <g transform="translate(444,222)">
+    <rect width="104" height="30" rx="6" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-dasharray="4,3" opacity="0.8"/>
+    <rect width="104" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.6271;0.6571;0.7071;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="52.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">PostgreSQL</text>
+  </g>
+  <g transform="translate(560,222)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-dasharray="4,3" opacity="0.8"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.6271;0.6571;0.7071;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">Next.js</text>
+  </g>
+  <g transform="translate(652,222)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#7C3AED" stroke-width="1.3" stroke-dasharray="4,3" opacity="0.8"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.6271;0.6571;0.7071;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#C4B5FD">Docker</text>
+  </g>
+
+  <text x="30" y="320" font-family="'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#9F8FCB" opacity="0.55">EXPLORING</text>
+  <g transform="translate(260,297)">
+    <rect width="128" height="30" rx="6" fill="none" stroke="#5B21B6" stroke-width="1.0" stroke-dasharray="2,3" opacity="0.55"/>
+    <rect width="128" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.8414;0.8714;0.9214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="64.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#9F8FCB">System Design</text>
+  </g>
+  <g transform="translate(400,297)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#5B21B6" stroke-width="1.0" stroke-dasharray="2,3" opacity="0.55"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.8414;0.8714;0.9214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#9F8FCB">CI/CD</text>
+  </g>
+  <g transform="translate(492,297)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#5B21B6" stroke-width="1.0" stroke-dasharray="2,3" opacity="0.55"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.8414;0.8714;0.9214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#9F8FCB">AWS</text>
+  </g>
+  <g transform="translate(584,297)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#5B21B6" stroke-width="1.0" stroke-dasharray="2,3" opacity="0.55"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.8414;0.8714;0.9214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#9F8FCB">Redis</text>
+  </g>
+  <g transform="translate(676,297)">
+    <rect width="80" height="30" rx="6" fill="none" stroke="#5B21B6" stroke-width="1.0" stroke-dasharray="2,3" opacity="0.55"/>
+    <rect width="80" height="30" rx="6" fill="none" stroke="#F5EEFF" stroke-width="1.4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0.0000;0.8414;0.8714;0.9214;1.0000" dur="10.0s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="40.0" y="20" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#9F8FCB">GraphQL</text>
+  </g>
+
+  <line x1="30" y1="345" x2="870" y2="345" stroke="#7C3AED" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="30" y="368" font-family="'Courier New', monospace" font-size="10" fill="#7C3AED" opacity="0.8">Categorized by real usage, not invented percentages.</text>
+</svg>
