@@ -241,7 +241,7 @@ OPEN_TO_OPPORTUNITIES=true
 </a>
 </td>
 <td align="center">
-<a href="https://www.linkedin.com/in/your-linkedin-handle">
+<a href="https://www.linkedin.com/in/ravishankar-gautam-1136a2403">
   <img src="https://img.shields.io/static/v1?label=LINKEDIN&message=Connect&labelColor=0B0212&color=1C0B38&logo=linkedin&logoColor=38BDF8&style=for-the-badge" alt="LinkedIn" />
 </a>
 </td>
@@ -253,7 +253,7 @@ OPEN_TO_OPPORTUNITIES=true
 </a>
 </td>
 <td align="center">
-<a href="https://your-portfolio-url.example.com">
+<a href="https://ravishankar-portfolio-app.vercel.app">
   <img src="https://img.shields.io/static/v1?label=PORTFOLIO&message=View%20Work&labelColor=0B0212&color=1C0B38&logo=vercel&logoColor=C084FC&style=for-the-badge" alt="Portfolio" />
 </a>
 </td>
