@@ -191,29 +191,50 @@ OPEN_TO_OPPORTUNITIES=true
 <div align="center">
 
 <!-- Section banner -->
+<a href="https://github.com/gautamrs224-r">
 <img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=CONTACT%20%2F%20CAREER&fontSize=26&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+</a>
 
 <!-- Custom animated beacon: radar-ping rings transmitting outward, orbiting particles, cycling status -->
+<a href="https://github.com/gautamrs224-r">
 <img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/contact-beacon.svg" alt="Ravishankar Gautam — open to opportunities, let's build something, reach out anytime" />
+</a>
+
+<br/>
+
+<sub><b>TRANSMISSION CHANNELS</b></sub>
 
 <br/><br/>
 
-<!-- Functional contact badges — REPLACE the placeholder URLs before publishing -->
+<!-- Functional contact badges arranged as a console grid — REPLACE the placeholder URLs before publishing -->
+<table>
+<tr>
+<td align="center">
 <a href="mailto:your.email@example.com">
-  <img src="https://img.shields.io/badge/EMAIL-0B0212?style=for-the-badge&logo=gmail&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="Email" />
-</a>&nbsp;
-<a href="https://www.linkedin.com/in/your-linkedin-handle">
-  <img src="https://img.shields.io/badge/LINKEDIN-0B0212?style=for-the-badge&logo=linkedin&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="LinkedIn" />
-</a>&nbsp;
-<a href="https://github.com/gautamrs224-r">
-  <img src="https://img.shields.io/badge/GITHUB-0B0212?style=for-the-badge&logo=github&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="GitHub" />
-</a>&nbsp;
-<a href="https://your-portfolio-url.example.com">
-  <img src="https://img.shields.io/badge/PORTFOLIO-0B0212?style=for-the-badge&logo=vercel&logoColor=C084FC&labelColor=1C0B38&color=1C0B38" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/EMAIL-F97362?style=for-the-badge&logo=gmail&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="Email" />
 </a>
+</td>
+<td align="center">
+<a href="https://www.linkedin.com/in/your-linkedin-handle">
+  <img src="https://img.shields.io/badge/LINKEDIN-38BDF8?style=for-the-badge&logo=linkedin&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="LinkedIn" />
+</a>
+</td>
+</tr>
+<tr>
+<td align="center">
+<a href="https://github.com/gautamrs224-r">
+  <img src="https://img.shields.io/badge/GITHUB-E5E7EB?style=for-the-badge&logo=github&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="GitHub" />
+</a>
+</td>
+<td align="center">
+<a href="https://your-portfolio-url.example.com">
+  <img src="https://img.shields.io/badge/PORTFOLIO-C084FC?style=for-the-badge&logo=vercel&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="Portfolio" />
+</a>
+</td>
+</tr>
+</table>
 
 </div>
-
 <!-- =========================================================
   SECTION 09 — CINEMATIC FOOTER (Dark Premium Purple, 2D animated)
   Ravishankar Gautam · Full Stack / MERN Developer
