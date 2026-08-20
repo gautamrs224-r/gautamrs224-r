@@ -98,6 +98,32 @@ OPEN_TO_OPPORTUNITIES=true
 </div>
 
 <!-- =========================================================
+  SECTION 04 — ENGINEERING EXPERIENCE MATRIX (Dark Premium Purple, 2D animated)
+  Ravishankar Gautam · Full Stack / MERN Developer
+  Concept: a diagnostic scan-line sweeps continuously down through four
+  honesty tiers, briefly brightening each row as it passes — distinct
+  from Tech Arsenal (which shows named technologies as a relationship
+  network). This section is about broader engineering PRACTICES, not
+  just tool names, and deliberately uses NO fake percentages.
+  Paste this block directly below Tech Arsenal (before Contribution
+  Snake) in README.md
+  ========================================================= -->
+
+<div align="center">
+
+<!-- Section banner -->
+<a href="https://github.com/gautamrs224-r">
+<img width="830" src="https://capsule-render.vercel.app/api?type=rect&color=0:0B0212,35:2D0B57,70:4C1D95,100:0B0212&height=80&text=ENGINEERING%20EXPERIENCE%20MATRIX&fontSize=22&fontColor=EDE4FF&fontAlignY=55&animation=fadeIn" />
+</a>
+
+<!-- Custom animated diagnostic scan grid -->
+<a href="https://github.com/gautamrs224-r">
+<img width="830" src="https://cdn.jsdelivr.net/gh/gautamrs224-r/gautamrs224-r@main/assets/experience-matrix.svg" alt="Ravishankar Gautam's engineering experience matrix: Primary stack JavaScript, React.js, Node.js, Express.js, MongoDB, Tailwind CSS; Active development REST APIs, Authentication, API Security, Advanced React, Git and GitHub, Cloud Deployment; Currently learning Python, MySQL, PostgreSQL, Next.js, Docker; Exploring System Design, CI/CD, AWS, Redis, GraphQL" />
+</a>
+
+</div>
+
+<!-- =========================================================
   SECTION 05 — CONTRIBUTION ACTIVITY (Dark Premium Purple, 2D animated)
   Ravishankar Gautam · Full Stack / MERN Developer
   This is a REAL, auto-generated visualization of actual GitHub
@@ -230,6 +256,16 @@ OPEN_TO_OPPORTUNITIES=true
 <a href="https://your-portfolio-url.example.com">
   <img src="https://img.shields.io/static/v1?label=PORTFOLIO&message=View%20Work&labelColor=0B0212&color=1C0B38&logo=vercel&logoColor=C084FC&style=for-the-badge" alt="Portfolio" />
 </a>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<!-- Scannable QR code — same portfolio placeholder URL, REPLACE before publishing -->
+<a href="https://your-portfolio-url.example.com">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&bgcolor=0B0212&color=C084FC&qzone=2&data=https://your-portfolio-url.example.com" alt="Scan to view portfolio" />
+</a>
+<br/>
+<sub>Scan to view portfolio on mobile</sub>
 </td>
 </tr>
 </table>
