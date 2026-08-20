@@ -211,24 +211,24 @@ OPEN_TO_OPPORTUNITIES=true
 <tr>
 <td align="center">
 <a href="mailto:your.email@example.com">
-  <img src="https://img.shields.io/badge/EMAIL-F97362?style=for-the-badge&logo=gmail&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="Email" />
+  <img src="https://img.shields.io/static/v1?label=EMAIL&message=Say%20Hello&labelColor=0B0212&color=1C0B38&logo=gmail&logoColor=F97362&style=for-the-badge" alt="Email" />
 </a>
 </td>
 <td align="center">
 <a href="https://www.linkedin.com/in/your-linkedin-handle">
-  <img src="https://img.shields.io/badge/LINKEDIN-38BDF8?style=for-the-badge&logo=linkedin&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="LinkedIn" />
+  <img src="https://img.shields.io/static/v1?label=LINKEDIN&message=Connect&labelColor=0B0212&color=1C0B38&logo=linkedin&logoColor=38BDF8&style=for-the-badge" alt="LinkedIn" />
 </a>
 </td>
 </tr>
 <tr>
 <td align="center">
 <a href="https://github.com/gautamrs224-r">
-  <img src="https://img.shields.io/badge/GITHUB-E5E7EB?style=for-the-badge&logo=github&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="GitHub" />
+  <img src="https://img.shields.io/static/v1?label=GITHUB&message=Follow&labelColor=0B0212&color=1C0B38&logo=github&logoColor=E5E7EB&style=for-the-badge" alt="GitHub" />
 </a>
 </td>
 <td align="center">
 <a href="https://your-portfolio-url.example.com">
-  <img src="https://img.shields.io/badge/PORTFOLIO-C084FC?style=for-the-badge&logo=vercel&logoColor=0B0212&labelColor=0B0212&color=1C0B38" alt="Portfolio" />
+  <img src="https://img.shields.io/static/v1?label=PORTFOLIO&message=View%20Work&labelColor=0B0212&color=1C0B38&logo=vercel&logoColor=C084FC&style=for-the-badge" alt="Portfolio" />
 </a>
 </td>
 </tr>
